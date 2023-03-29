@@ -29,4 +29,20 @@ char *to_str(int);
  */
 int _strcmp(const char *, const char *);
 
+/**
+ * searches a sub string in a string and returns the index of the first char
+ */
+
+int strsrch(char *, char *);
+
+/**
+ * subsrtings a string from the index @i to @j
+ */
+
+char *substr(char *src, unsigned int, unsigned int);
+/**
+ * Parses print formated strings
+ */
+void _printf(char *, ...);
+
 #endif
